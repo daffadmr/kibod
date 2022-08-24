@@ -1,5 +1,7 @@
-const hamburgerButton = document.querySelector(".hamburger-button");
+const hamburgerButton = document.querySelector(".hamburger-button input");
+const nav = document.querySelector("nav ul");
 
-hamburgerButton.addEventListener('click', ()=>{
-    hamburgerButton.classList.toggle('hamburger-active');
+hamburgerButton.addEventListener("click", () => {
+  nav.classList.toggle("slide");
 });
+
